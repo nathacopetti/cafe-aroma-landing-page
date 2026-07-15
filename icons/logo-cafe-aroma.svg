@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <style>
+    .brand-name {
+      font-family: 'Playfair Display', 'Georgia', serif;
+      font-weight: 700;
+      fill: #FFFFFF;
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+    .brand-slogan {
+      font-family: 'Montserrat', 'Arial', sans-serif;
+      font-weight: 500;
+      fill: #D4A373; /* Tom dourado/quente do design */
+      font-size: 8px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <g transform="translate(10, 8)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M12,4 Q10,1 12,-2" />
+    <path d="M18,4 Q16,1 18,-2" stroke-delay="0.2" />
+    <path d="M24,4 Q22,1 24,-2" />
+    
+    <path d="M8,12 L28,12 C28,24 8,24 8,12 Z" fill="#FFFFFF" fill-opacity="0.1" />
+    
+    <path d="M28,14 C32,14 32,19 28,19" />
+    
+    <path d="M4,28 L32,28" stroke-width="2.5" />
+  </g>
+
+  <text x="60" y="30" class="brand-name">CAFÉ AROMA</text>
+  <text x="60" y="44" class="brand-slogan">Sabor que acolhe</text>
+</svg>
