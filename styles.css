@@ -1,5 +1,44 @@
+:root{
+    --background: #F8F4EF;
+    --white: #FFFFFF;
+    --primary: #B86A2D;
+    --primary-dark: #A25D28;
+    --brown-dark: #1E1712;
+    --brown: #2B1E16;
+    --title: #2C221C;
+    --text: #4D4038;
+    --text-light: #786A61;
+    --border: #E8DED4;
+    --star: #D8892C;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    max-width: 100vh;
+}
+
+.header-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--text-light);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    }
+
+.header-mobile-logo {
+    height: 2.5rem;
+}
+
+.header-mobile-icon {
+    height: 2.15rem;
+    color: var(--background);
+}
+
+.header-desktop {
+    display: none;
 }
