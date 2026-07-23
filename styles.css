@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
     --background: #F8F4EF;
     --white: #FFFFFF;
@@ -42,3 +44,70 @@ body {
 .header-desktop {
     display: none;
 }
+
+.main-welcome-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--background);
+}
+
+.main-welcome-section-wrapper {
+    padding: 2rem 3rem 1rem 1rem;
+}
+
+.main-welcome-section-wrapper h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: .95rem;
+    color: var(--primary);
+}
+
+.main-welcome-section-wrapper h1 {
+    padding: .5rem 0 0 0;
+    font-family: "Playfair Display", serif;
+    line-height: 1;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--title);
+}
+
+.main-welcome-section-wrapper-text {
+    padding: .5rem 0 .75rem 0;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: .75rem;
+    color: var(--text);
+    line-height: 1.8;
+}
+
+.main-welcome-section-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .75rem;
+}
+
+.main-welcome-section-button {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--primary);
+    border-radius: .5rem;
+    padding: .5rem;
+    min-width: 65%;
+}
+
+.main-welcome-section-button-text {
+    font-family: "Poppins", serif;
+    font-size: .85rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.main-welcome-section-button img {
+    height: 1.75rem;
+}
+
