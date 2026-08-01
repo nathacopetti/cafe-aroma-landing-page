@@ -203,3 +203,41 @@ body {
     color: var(--text);
     line-height: 1.8;
 }
+
+.main-menu-section {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    background-color: var(--background);
+}
+
+.main-menu-section-wrapper {
+    padding: 1rem;
+    margin: 0 0 0 .75rem;
+}
+
+.main-menu-section-titulo {
+    font-family: "Poppins", sans-serif;
+    font-size: .95rem;
+    color: var(--primary);
+    padding: 1.5rem 0 0 0;
+}
+
+.main-menu-section-subtitulo {
+    font-family: "Playfair Display", serif;
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--title);
+}
+
+.main-menu-section-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-menu-section-list-image {
+    height: 8rem;
+}
+}
