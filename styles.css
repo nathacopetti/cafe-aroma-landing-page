@@ -118,6 +118,7 @@ body {
     gap: 1rem;
     padding: 1rem;
     border-bottom: 1px var(--border) solid;
+    background-color: var(--background);
 }
 
 .main-about-section-wrapper {
