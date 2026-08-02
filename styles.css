@@ -91,13 +91,13 @@ body {
 .main-welcome-section-button {
     display: flex;
     flex-direction: row;
-    gap: .5rem;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     background-color: var(--primary);
     border-radius: .5rem;
-    padding: .5rem;
+    padding: .65rem .75rem;
     min-width: 85%;
 }
 
