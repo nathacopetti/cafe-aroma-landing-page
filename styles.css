@@ -293,3 +293,72 @@ body {
     padding: 0;
 }
 
+.main-section-card {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+    margin: 1rem 1rem 3.75rem 1rem;
+    background-color: var(--border);
+    padding: 1rem 1rem 1.75rem 1rem;
+    border-radius: .5rem;
+    border-bottom: 1px var(--border) solid;
+}
+
+.main-section-card-image {
+    height: 3rem;
+    padding: 1rem 0 0 0;
+}
+
+.main-section-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.main-section-card-wrapper-title {
+    font-family: "Poppins", sans-serif;
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: .75rem 0 0 0;
+}
+
+.main-section-card-wrapper-subtitle {
+    font-family: "Playfair Display", serif;
+    font-size: 1.65rem;
+    font-weight: 800;
+    color: var(--title);
+    line-height: 1.2;
+    max-width: 80%;
+}
+
+.main-section-card-wrapper-text {
+    font-family: "Poppins", sans-serif;
+    font-size: .85rem;
+    font-weight: 400;
+}
+
+.main-section-card-button {
+    display: flex;
+    flex-direction: row;
+    gap: .75rem;
+    background-color: var(--primary);
+    padding: .75rem;
+    max-width: 75%;
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.main-section-card-button-image {
+    height: 1.5rem;
+}
+
+.main-section-card-button-text {
+    font-family: "Poppins", sans-serif;
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--border);
+}
