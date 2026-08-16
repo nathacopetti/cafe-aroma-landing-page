@@ -362,3 +362,89 @@ body {
     font-weight: 700;
     color: var(--border);
 }
+
+.main-section-reviews {
+    margin: 2rem 1rem 3.75rem 1rem;
+}
+
+.main-section-reviews-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .75rem;
+}
+
+.main-section-reviews-title {
+    font-family: "Poppins", sans-serif;
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    text-align: center
+}
+
+.main-section-reviews-subtitle {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--title);
+    line-height: .75;
+    margin: 0 0 .5rem 0;
+}
+
+.main-section-reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.main-section-reviews-list-items {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: flex-start;
+    border: 1px solid var(--border);
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: var(--border);
+}
+
+.reviews-list-items-icon {
+    color: var(--star);
+    font-weight: 800;
+}
+
+.reviews-list-items-text {
+    font-family: "Poppins", sans-serif;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.main-section-reviews-list-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    gap: .65rem;
+}
+
+.reviews-list-image {
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.main-section-reviews-list-wrapper-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-list-wrapper-name {
+    font-family: "Poppins", sans-serif;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.reviews-list-wrapper-description {
+    font-family: "Poppins", sans-serif;
+    font-size: .7rem;
+    font-weight: 600;
+    color: var(--text-light);
+}
