@@ -1,3 +1,5 @@
+/*estilizacao inicial mobile-first 375px*/
+
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
@@ -556,4 +558,70 @@ body {
   font-weight: 500;
   color: var(--white);
   text-align: center;
+}
+
+/* inicio estilizacao 320px*/
+
+@media (min-width: 320px) {
+  .main-welcome-section-wrapper h1 {
+    font-size: 2rem;
+  }
+
+  .main-welcome-section-wrapper-text {
+    font-size: .9rem;
+    max-width: 85%;
+    font-weight: 500;
+  }
+
+  .main-about-section h3 {
+    font-size: 2rem;
+  }
+
+  .main-about-section-text {
+    font-size: .9rem;
+    max-width: 85%;
+    font-weight: 500;
+  }
+
+  .main-about-section-list-wrapper h4 {
+    font-size: .9rem;
+  }
+
+  .main-about-section-list-text {
+    font-size: .85rem;
+  }
+
+  .main-menu-section-subtitulo {
+    line-height: 1;
+  }
+
+  .main-menu-section-list-text-title {
+    max-width: 95%;
+  }
+
+  .main-menu-section-list-text-description {
+    font-size: .9rem;
+  }
+
+  .main-section-card-wrapper-subtitle {
+    font-size: 1.85rem;
+    line-height: 1;
+  }
+
+  .main-section-card-wrapper-text {
+    font-size: .9rem;
+  }
+
+  .main-section-reviews-list {
+    gap: 1rem;
+  }
+
+  .reviews-list-items-text {
+    font-size: .9rem;
+  }
+
+  .footer-content-text {
+    font-size: 1rem;
+  }
+
 }
