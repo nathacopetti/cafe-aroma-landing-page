@@ -112,6 +112,31 @@ body {
   height: 1.75rem;
 }
 
+.main-welcome-section-button-2nd {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: .5rem;
+  border: 2px solid var(--star);
+  padding: 0.65rem 0.75rem;
+  min-width: 85%;
+}
+
+.main-welcome-section-button-text-2nd {
+  font-family: "Poppins", serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--star);
+}
+
+.main-welcome-section-button-img-2nd {
+  height: 1.75rem;
+}
+
 .main-about-section {
   display: flex;
   flex-direction: column;
@@ -517,8 +542,8 @@ body {
 .footer-list-item-text {
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--brown-dark);
+  font-weight: 700;
+  color: var(--star);
 }
 
 .footer-list-item-icon {
