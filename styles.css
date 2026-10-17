@@ -625,3 +625,151 @@ body {
   }
 
 }
+
+/* inicio estilizacao 430px*/
+
+@media (min-width: 430px) {
+  .header-mobile-logo {
+    height: 3rem;
+  }
+
+  .main-welcome-section-wrapper h1 {
+    font-size: 3rem;
+  }
+
+  .main-welcome-section-wrapper-text {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+
+  .main-welcome-section-button-text {
+    font-size: 1rem;
+  }
+
+  .main-welcome-section-button img {
+    height: 2rem;
+  }
+
+  .main-welcome-section-button-text {
+    font-size: 1rem;
+  }
+  
+  .main-welcome-section-button-img-2nd {
+    height: 2rem;
+  }
+
+  .main-about-section h3 {
+    font-size: 3rem;
+  }
+
+  .main-about-section-text {
+    font-size: 1rem;
+    margin-top: .5rem;
+  }
+
+  .main-about-section-list-icons {
+    padding: 1rem;
+  }
+
+  .main-about-section-list-wrapper h4 {
+    font-size: 1rem;
+  }
+
+  .main-about-section-list-text {
+    font-size: .9rem;
+  }
+
+  .main-menu-section-list-text-title {
+    max-width: 95%;
+    font-size: 1rem;
+  }
+
+  .main-menu-section-list-text-description {
+    font-size: .95rem;
+  }
+
+  .main-menu-section-list-link-text{
+    font-size: 1rem;
+  }
+
+  .main-section-card-image {
+    height: 3.3rem;
+  }
+
+  .main-section-card-wrapper-title {
+    font-size: .95rem;
+  }
+  
+  .main-section-card-wrapper-subtitle {
+    font-size: 2.5rem;
+    max-width: 95%;
+  }
+
+  .main-section-card-wrapper-text {
+    font-size: 1rem;
+  }
+
+  .main-section-card-button  {
+    max-width: 85%;
+    padding: 1rem;
+  }
+
+  .main-section-card-button-image {
+    height: 2rem;
+  }
+
+  .main-section-card-button-text {
+    font-size: 1rem;
+  }
+
+  .main-section-reviews-title {
+    font-size: 1rem;
+  }
+
+  .main-section-reviews-subtitle {
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .reviews-list-items-icon {
+    font-size: 1.5rem;
+  }
+
+  .reviews-list-image {
+    height: 2.5rem;
+  }
+
+  .reviews-list-wrapper-name {
+    font-size: 1rem;
+  }
+
+  .reviews-list-wrapper-description {
+    font-size: .9rem;
+  }
+
+  .reviews-list-items-text {
+    font-size: 1rem;
+  }
+
+  .footer-content-logo {
+    height: 3rem;
+  }
+
+  .footer-content-text {
+    font-size: 1.3rem;
+    max-width: 80%;
+  }
+
+  .footer-socials-icons {
+    height: 2rem;
+  }
+
+  .footer-list-item-text {
+    font-size: 1rem;
+  }
+
+  .footer-section-text {
+    font-size: 1rem;
+  }
+
+}
